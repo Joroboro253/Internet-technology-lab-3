@@ -43,7 +43,7 @@ var urlForNight = "https://images.wallpaperscraft.ru/image/single/zvezdnoe_nebo_
 var urlForEvening = "https://look.com.ua/pic/201407/1920x1080/look.com.ua-107015.jpg";
 
 let ReplaceBackground = function () {
-  if (CurrentTime >= 22 && CurrentTime < 5) {
+  if (CurrentTime >= 22 || CurrentTime < 5) {
     document.body.style.backgroundImage = `url(${urlForNight})`;
   } else if (CurrentTime >= 5 && CurrentTime < 12) {
     document.body.style.backgroundImage =  `url(${urlForMornig})`;
