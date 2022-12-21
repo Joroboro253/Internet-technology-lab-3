@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(220, 187, 187);
+    background-color: rgb(245, 251, 187);
 }
 
 tr:first-child td:nth-child(odd)>input {
